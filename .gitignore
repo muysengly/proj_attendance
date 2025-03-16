@@ -1,0 +1,12 @@
+__backup__/
+__package__/
+__pycache__/
+__resource__/
+__tmp__/
+.git/
+venv/
+
+models/buffalo_l/
+models/buffalo_s/
+models/buffalo_l.zip/
+models/buffalo_s.zip/
