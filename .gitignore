@@ -8,5 +8,5 @@ venv/
 
 models/buffalo_l/
 models/buffalo_s/
-models/buffalo_l.zip/
-models/buffalo_s.zip/
+models/buffalo_l.zip
+models/buffalo_s.zip
