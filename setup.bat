@@ -1,24 +1,40 @@
 @echo off
 
+
 @REM create a virtual environment if it doesn't exist
 if not exist venv (
-    python -m venv venv
+    py -3.12 -m venv venv
 )
+
 
 @REM call venv\Scripts\activate
 call venv\Scripts\activate
 
-@REM update pip optional
-@REM python.exe -m pip install --upgrade pip
+
+@REM update pip
+python.exe -m pip install --upgrade pip
 
 
-@REM install dependencies offline
-pip install --no-index --find-links=__package__ -r requirements.txt
+@REM install dependencies
+pip install opencv-python
+pip install insightface
+pip install onnxruntime
+pip install pyqt5
 
-echo.
-echo.
-echo Dependencies installed!
-echo.
-echo.
 
-pause
+@REM create a folder result
+if not exist "result" (
+    mkdir "result"
+)
+
+
+@REM create a folder data
+if not exist "data" (
+    mkdir "data"
+)
+
+
+@REM download the model
+if not exist "models" (
+    python -c "import os; from insightface.app import FaceAnalysis; FaceAnalysis(name='buffalo_sc', root=os.getcwd(), providers=['CPUExecutionProvider'])"
+)

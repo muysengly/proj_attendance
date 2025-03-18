@@ -2,8 +2,4 @@
 
 call venv\Scripts\activate
 
-start /min cmd /c python 012.py
-
-@REM wscript run_hidden.vbs
-
-@REM pause
+start /min cmd /c python 014.py
