@@ -43,6 +43,7 @@ requests==2.32.3
 scikit-image==0.25.2
 scikit-learn==1.6.1
 scipy==1.15.2
+setuptools==76.1.0
 simsimd==6.2.1
 six==1.17.0
 stringzilla==3.12.3

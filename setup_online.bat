@@ -14,12 +14,12 @@ call venv\Scripts\activate
 @REM update pip
 python.exe -m pip install --upgrade pip
 
+@REM install setuptools
+pip install setuptools
+
 
 @REM install dependencies
-pip install opencv-python
-pip install insightface
-pip install onnxruntime
-pip install pyqt5
+pip install opencv-python insightface onnxruntime pyqt5
 
 
 @REM create a folder result
