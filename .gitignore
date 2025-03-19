@@ -4,7 +4,10 @@ __resource__/
 __tmp__/
 .git/
 .vscode/
+data/
+models/
 venv/
+
 models/buffalo_l/
 models/buffalo_s/
 models/buffalo_l.zip

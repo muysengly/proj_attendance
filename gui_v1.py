@@ -101,21 +101,21 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.label_version.setFont(font)
-        self.label_version.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
+        self.label_version.setAlignment(QtCore.Qt.AlignRight | QtCore.Qt.AlignTrailing | QtCore.Qt.AlignVCenter)
         self.label_version.setObjectName("label_version")
         self.label_6 = QtWidgets.QLabel(self.centralwidget)
         self.label_6.setGeometry(QtCore.QRect(13, 692, 250, 30))
         font = QtGui.QFont()
         font.setPointSize(12)
         self.label_6.setFont(font)
-        self.label_6.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
+        self.label_6.setAlignment(QtCore.Qt.AlignLeading | QtCore.Qt.AlignLeft | QtCore.Qt.AlignVCenter)
         self.label_6.setObjectName("label_6")
         self.label_9 = QtWidgets.QLabel(self.centralwidget)
         self.label_9.setGeometry(QtCore.QRect(13, 719, 301, 30))
         font = QtGui.QFont()
         font.setPointSize(12)
         self.label_9.setFont(font)
-        self.label_9.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
+        self.label_9.setAlignment(QtCore.Qt.AlignLeading | QtCore.Qt.AlignLeft | QtCore.Qt.AlignVCenter)
         self.label_9.setOpenExternalLinks(False)
         self.label_9.setObjectName("label_9")
         MainWindow.setCentralWidget(self.centralwidget)
@@ -132,10 +132,8 @@ class Ui_MainWindow(object):
         self.label_2.setText(_translate("MainWindow", "Absented"))
         self.label_3.setText(_translate("MainWindow", "Presented"))
         self.label_4.setText(_translate("MainWindow", "Student Attendance"))
-        self.label_7.setText(_translate("MainWindow", "Institute of Technology \n"
-" of Cambodia"))
-        self.label_8.setText(_translate("MainWindow", "Department of Telecommunication \n"
-" and Network Engineering"))
+        self.label_7.setText(_translate("MainWindow", "Institute of Technology \n" " of Cambodia"))
+        self.label_8.setText(_translate("MainWindow", "Department of Telecommunication \n" " and Network Engineering"))
         self.label_version.setText(_translate("MainWindow", "Version: 1.0"))
         self.label_6.setText(_translate("MainWindow", "Developer: MUY Sengly"))
         self.label_9.setText(_translate("MainWindow", "Telegram: t.me/muysengly"))
@@ -143,6 +141,7 @@ class Ui_MainWindow(object):
 
 if __name__ == "__main__":
     import sys
+
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
