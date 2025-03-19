@@ -6,6 +6,7 @@ __tmp__/
 .vscode/
 data/
 models/
+setup_offline/
 venv/
 
 models/buffalo_l/
