@@ -19,7 +19,7 @@ pip install setuptools
 
 
 @REM install dependencies
-pip install opencv-python insightface onnxruntime pyqt5
+pip install jupyter opencv-python insightface onnxruntime pyqt5 pillow-heif
 
 
 @REM create a folder result
